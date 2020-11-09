@@ -37,8 +37,7 @@ let persons = [
 ]
 
 app.get('/', (req, res) => {
-    res.send('<h1>Welcome to the phonebook server!</h1>' + 
-    '<br><br>(Nyt meen kauppaan ja ostan sulle sushia :D')
+    res.send('<h1>Welcome to the phonebook server!</h1>')
 })
 
 app.get('/info', (req, res) => {
